@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "d1861594-95db-4999-bc91-6be95bd16aa8",
+		"name": "20CS801025_test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAllJobDescription",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n    {\r\n        \"jobId\": 3,\r\n        \"jobTitle\": \" Java Developer\",\r\n        \"jobDescription\": \"Myself Praveena, My passion is To develop andriod application\",\r\n        \"experience\": [\r\n            \"Google\",\r\n            \"Apple\",\r\n            \"Mobile Iron\"\r\n        ],\r\n        \"project\": [\r\n            {\r\n                \"projectName\": \"Movie App\",\r\n                \"technology\": [\r\n                    \"Kotlin\",\r\n                    \"SQL Lite\",\r\n                    \"Gradle\"\r\n                ]\r\n            }\r\n        ]\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9191/normal/webapi/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9191",
+					"path": [
+						"normal",
+						"webapi",
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
